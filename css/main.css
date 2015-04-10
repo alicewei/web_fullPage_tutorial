@@ -501,16 +501,8 @@ footer {
   margin-top: 40px;
 }
 /*animate*/
-.text-about, .musicions-row, .title, .content form {
+.text-about, .musicions-row, .title, .timeline, .content form, footer {
   position: relative;
   opacity: 0;
   top: 50px;
 }
-.timeline-panel {
-  position: relative;
-  opacity: 0;
-  top: 50px;
-}
-
-
-
