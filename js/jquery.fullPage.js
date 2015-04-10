@@ -1303,7 +1303,7 @@
 				var percentage = Math.min(heightPercentage, widthPercentage);
 				var newFontSize = percentage.toFixed(2);
 
-				$("body").css("font-size", newFontSize + '%');
+				// $("body").css("font-size", newFontSize + '%');
 			} else {
 				$("body").css("font-size", '100%');
 			}
