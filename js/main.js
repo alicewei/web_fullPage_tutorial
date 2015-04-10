@@ -31,8 +31,8 @@ $(document).ready(function(){
 				$('#section3').find('.title').animate({
 					top: '0',
 					opacity: '1'
-				}, 800, 'easeOutExpo');	
-				$('#section3').find('.timeline-panel').delay(250).animate({
+				}, 800, 'easeOutExpo');											
+				$('#section3').find('.timeline').delay(250).animate({
 					top: '0',
 					opacity: '1'
 				}, 800, 'easeOutExpo');											
@@ -47,7 +47,11 @@ $(document).ready(function(){
 				$('#section4').find('.content form').delay(250).animate({
 					top: '0',
 					opacity: '1'
-				}, 800, 'easeOutExpo');				
+				}, 800, 'easeOutExpo');	
+				$('#section4').find('footer').delay(350).animate({
+					top: '0',
+					opacity: '1'
+				}, 800, 'easeOutExpo');								
 			}			
 		}
 	});
