@@ -7,4 +7,4 @@
   - [slides](http://alicewei.github.io/slides_20150411/)
   - [webpage layout完成](http://alicewei.github.io/web_fullPage_tutorial/)
   - [download Psd](http://goo.gl/FX5rWa)
-  - [download sample](http://goo.gl/h9z6Qt)
+  - [download sample](http://goo.gl/n1q5Uv)
