@@ -9,7 +9,7 @@
 (function($) {
 	$.fn.fullpage = function(options) {
 		// Create some defaults, extending them with any options that were provided
-		options = $.extend({siz
+		options = $.extend({
 			//navigation
 			'menu': false,
 			'anchors':[],
@@ -1303,7 +1303,7 @@
 				var percentage = Math.min(heightPercentage, widthPercentage);
 				var newFontSize = percentage.toFixed(2);
 
-				//$("body").css("font-size", newFontSize + '%');
+				// $("body").css("font-size", newFontSize + '%');
 			} else {
 				$("body").css("font-size", '100%');
 			}
