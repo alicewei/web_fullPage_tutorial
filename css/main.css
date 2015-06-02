@@ -203,7 +203,6 @@ html, body {
   margin: 0 auto;
   width: 1000px;
   min-height: 700px;
-  /*border: 1px solid red;*/
 }
 nav {
   position: fixed;
@@ -269,29 +268,35 @@ nav {
           background-size: cover;
 }      
 .pic-head01 {
-  float: left;
-  margin: 120px 0 0 38px;
+  position: relative;
+  top: 140px;
+  left: 38px;
 }
 .pic-head02 {
-  float: left;
-  margin: 330px 0 0 -162px;
+  position: relative;
+  top: 260px;
+  left: -120px;
 }
 .pic-head03 {
-  float: left;
-  margin: 200px 0 0 -115px;
+  position: relative;
+  top: 160px;
+  left: -240px;
 }
 .pic-head04 {
-  float: left;
-  margin: 380px 0 0 40px;
+  position: relative;
+  top: 20px;
+  left: 670px;
 }
 .pic-head05 {
-  float: left;
-  margin: -460px 0 0 746px;
+  position: relative;
+  top: -160px;
+  left: 580px;
 }
 .title-index {
-  float: left;
+  position: relative;
   width: 235px;
-  margin: -460px 0 0 524px;
+  top: -400px;
+  left: 560px;
 }
 h1 {
   font-size: 24px;
